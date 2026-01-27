@@ -27,19 +27,13 @@ if UID.nil? || SECRET.nil?
   exit
 end
 
-client = OAuth2::Client.new(
-  UID,
-  SECRET,
-  site: "https://api.intra.42.fr"
-)
+client = OAuth2::Client.new(UID, SECRET, site: "https://api.intra.42.fr")
 
 begin
   token = client.client_credentials.get_token
   projects = token.get("/v2/users/#{login}/projects_users").parsed
 rescue OAuth2::Error => e
   abort "#{RED}API error:#{RESET} #{e.message}"
-rescue StandardError => e
-  abort "#{RED}Unexpected error:#{RESET} #{e.message}"
 end
 
 validated = projects.select { |p| p["validated?"] == true }
