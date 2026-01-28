@@ -1,3 +1,13 @@
+<p align="right">
+  <a href="es.README.md">
+    <img src="https://img.shields.io/badge/🌐%20Spanish-README-%2312bab9?style=for-the-badge" alt="README Spanish" />
+  </a>
+</p>
+
+<div align="left">
+    <img src='https://img.shields.io/badge/Barcelona-black?style=flat&logo=42&logoColor=white'/>
+</div>
+
 # 42 API Project Viewer
 
 A small Ruby script that connects to the 42 Intra API and displays a user's validated and non‑validated projects with colored output.
