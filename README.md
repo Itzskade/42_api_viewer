@@ -57,7 +57,7 @@ bundle install
 
 ```Example usage format:
 
-./42school.rb <login>
+./42_api_viewer.rb <login>
 ```
 
 The script will show:
