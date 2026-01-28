@@ -29,17 +29,6 @@ rbenv local 3.3.10
 ```
 gem install bundler
 ```
-- Un archivo `.env` con tu UID y SECRET de la API de 42  
-
----
-
-## 🔧 Instalación
-
-```bash 
-git clone https://github.com/itzksade/42_api.git
-cd 42_api
-bundle install
-```
 
 ---
 
@@ -50,7 +39,17 @@ Crea un archivo `.env` en la carpeta del proyecto con el siguiente contenido:
 UID=tu_uid_de_api  
 SECRET=tu_secret_de_api  
 
-Puedes generar estas credenciales desde tu perfil de 42 en la sección “OAuth Applications”.
+Puedes generar estas credenciales desde tu perfil de 42 en la sección [“OAuth Applications”](https://profile.intra.42.fr/oauth/applications).
+
+---
+
+## 🔧 Instalación
+
+```bash 
+git clone https://github.com/itzksade/42_api.git
+cd 42_api
+bundle install
+```
 
 ---
 
