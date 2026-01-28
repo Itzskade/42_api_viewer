@@ -17,7 +17,6 @@ La herramienta es simple, ligera y fácil de ejecutar en cualquier sistema.
 ---
 ## 📦 Requisitos
 
-Necesitas:
 En Fedora:
 ```
 sudo dnf install rbenv ruby-build
