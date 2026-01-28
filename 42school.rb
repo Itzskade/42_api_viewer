@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+require "bundler/setup"
 require "oauth2"
 require "dotenv/load"
 
